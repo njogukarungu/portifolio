@@ -88,9 +88,27 @@ display: inline-block;
 
 /* Create three unequal columns that floats next to each other */
 .column {
-   width:30%;
+   width:25%;
    background-color: #040501f8;
     opacity: 0.9;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 400px;
+    display: inline-block;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+
+.columnn{
+    width: 100%;
+    margin-left: 7%;
+}
+.ccolumn {
+   width:25%;
+   background-color: #040501f8;
+    opacity: 0.9;
+    margin: 0 auto;
     margin-left: 1%;
     margin-right: 1%;
     height: 400px;
@@ -105,5 +123,19 @@ display: inline-block;
 }
 .tfooter{
     width: 90%;
+    margin: 0 auto;
+}
+
+.picsec{
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+     margin-left: 35%;
+    margin-top: 30px;
+}
+.picsec img{
+    height: 90%;
+    border-radius: 50%;
+    width: 50%;
     margin: 0 auto;
 }
