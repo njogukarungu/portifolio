@@ -10,31 +10,100 @@ body{ width: 100%;
 .nav{
     background:rgb(25, 6, 78);
     height: 80px;
+    top: 0px;
+    bottom: 0px;
 }
     
 .nav ul{
-    /* float: right; */
+    float: right;
     margin-right: 40px;
     padding: 10px;
+   
 }
 .nav ul li{
     list-style-type: none;
     display: inline-block;
     margin: 5px 10px;
+    
     color: #FFF;
 }
-.links img{
-    height: 50px;
-    widows: 50px;
-    margin: 10px;
-    float: right;
+.links{
+    height: 45px;
 }
+.links img{
+    height: 40px;
+    widows: 50px;
+    padding-bottom: 10px;
+    transition: all 2s ease-in-out;
+    transform: rotateY(360);
+    vertical-align: middle;
+}
+.links img:hover{
+    transform: rotateY(360deg);
+}
+
 .nav ul li a{
-    text-decoration: none;
-       
+    text-decoration: none;  
 }
 a:hover{
     text-decoration: underline;
-    color:rgb(105, 13, 13);
+    color:rgb(223, 210, 210);
+}
+#body_content {
+    background-color:#0e0e0f ;
+    width: 100%;
+    margin: 0 auto;
+    color: fff;
+    top: 0px;
+}
+p, h1, h2, h3, h4, h5, h6{
+    color: #FFF;
+}
+.ulist ul{
+    margin: 0 auto;
+}
+.ulist ul li{
+list-style-type: none;
+display: inline-block;
+
+}
+#body_content{
+    padding-top: 50px;
 }
 
+#body_content img{
+    width: 280px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 10px;
+
+}
+
+
+
+    * {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+   width:30%;
+   background-color: #040501f8;
+    opacity: 0.9;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 400px;
+    display: inline-block;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+#Table{
+    margin-top: 50px;
+    
+}
+.tfooter{
+    width: 90%;
+    margin: 0 auto;
+}
