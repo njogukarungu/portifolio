@@ -6,6 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Philip Njogu</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script>  
+      var image1 = new Image()
+      image1.src="images/img9.jpg"  
+      var image2 = new Image()
+      image2.src="images/img10.jpg"
+      var image3 = new Image()
+      image3.src="images/img11.jpg"
+      var image4 = new Image()
+      image4.src="images/img12.jpg"
+      var image5 = new Image()
+      image5.src="images/img8.jpg"
+    function prompt(){
+        alert("Message")
+        document.write("Hello the project is being worked on.")
+    }
+    </script>
 </head>
 <body>
 
@@ -29,6 +45,26 @@
             <!-- <marquee behavior="scroll" direction="right"><h2>Portifolio</h3></marquee>
             <img src="images/img6.jpg" alt="My picture">                
          <marquee behavior="scrol" direction="left" onmouseover="stop()" onmouseout="start()"><h3>Meet and learn about Philip Njogu </h3></marquee> -->
+
+        <div id="slider">
+            <figure>
+              <div class="slide">
+                <img src="images/img9.jpg">
+              </div>
+              <div class="slide">
+                <img src="images/img10.jpg">
+              </div>
+              <div class="slide">
+                <img src="images/img11.jpg">
+              </div>
+              <div class="slide">
+                <img src="images/img12.jpg">
+              </div>
+              <div class="slide">
+                <img src="images/img8.jpg">
+              </div>         
+            </figure>
+        </div>
           
           <table style="width: 100%; height: 200px; border: 3; margin: 0 auto; padding-top: 50dp;" >
               <tr>
@@ -60,9 +96,9 @@
                     <h4><a href="">Smart Poster</a></h4>
                     <h5><a href="">Beach Resort</a></h5>
                     <h3>Upcoming projects</h3>
-                    <h3><a href="">Smart Farm app</a></h3>
-                    <h3><a href="">Fake News app</a></h3>
-                    <h3><a href="">Drug Recovery app</a></h3>
+                    <h3><a href="" onclick="prompt"> Smart Farm app</a></h3>
+                    <h3><a href="" onclick="prompt">Fake News app</a></h3>
+                    <h3><a href=""onclick="prompt">Drug Recovery app</a></h3>
                 </td>
               </tr>
           </table>

@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Philip-Contacts</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+<script>
+function feed(){
+    alert("Message!!!")
+    document.write("Hello, we got your data we getting to you!!!")
+}
+</script>
+
 </head>
 <body>
     <div id="header">
@@ -26,7 +33,50 @@
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
         </div>
-        <p>This is the contacts page</p>
+    </div>
+    <div id="body_contacts">
+        <div class="picsec">
+            <img src="images/img6.jpg" alt="My picture">
+        </div>
+        <center><h3>Contacts</h3></center>
+        <p>Fill in the following information.</p>
+        <form action="post">
+          Firstname:  <input type="text" name="firstname" value="firstname"><br><br><br>
+          Secondname:  <input type="text" name="firstname" value="firstname"><br><br><br>
+          Message:     <input type="text" name="firstname" value="Message" height="50px">
+          <button onclick="feed();">Submit</button>
+
+        </form>
+    </div>
+    <div id="footer">
+        <table class="tfooter">
+            <tr>
+                <td style="width: 30%;align-content: center; ">
+                    <a href="https://www.facebook.com/philip.njogu.3"><img src="images/img2.png" alt="A facebook link"></a>
+                </td>
+                <td style="width: 30%;align-content: center;">
+                    <a href="https://twitter.com/philip_njogu"><img src="images/img1.png" alt="A twitter link"></a>
+                </td>
+                <td style="width: 30%;align-content: center;">
+                    <a href=""><img src="images/img5.png" alt="A linkedin file"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="">Email</a>
+                </td>
+                <td>
+                    <a href="projects.html">Projects</a>
+                </td>
+                <td>
+                    <a href="contacts.html">Contacts</a>
+                </td>
+            </tr>
+            <tr>
+    
+            </tr>
+        </table>
+    
     </div>
 </body>
 </html>
