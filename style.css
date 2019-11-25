@@ -246,4 +246,14 @@ height: 480px;
      96%{
            left: 0%; 
       }
-    
+
+ }  
+ .c_form{
+     width: 40%;
+     display: inline-block;
+ } 
+ .c_links{
+     width: 40%;
+     float: right;
+     display: inline;
+ }
